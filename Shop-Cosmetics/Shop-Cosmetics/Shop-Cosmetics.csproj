@@ -5,4 +5,9 @@
     <RootNamespace>Shop_Cosmetics</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
+  </ItemGroup>
+
 </Project>
