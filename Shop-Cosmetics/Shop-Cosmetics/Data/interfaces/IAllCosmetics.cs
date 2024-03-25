@@ -8,7 +8,7 @@ namespace Shop_Cosmetics.Data.interfaces
 {
 	interface IAllCosmetics
 	{
-		IEnumerable<Cosmetics> cosmetics { get; set; }
+		IEnumerable<Cosmetics> cosmetics { get; }
 		IEnumerable<Cosmetics> getFavCosmetics { get; set; }
 		Cosmetics getObjectCosmetics(int cosmeticsId);
 	}
