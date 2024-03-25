@@ -15,8 +15,8 @@ namespace Shop_Cosmetics.Data.mocks
             {
                 return new List<Category> {
                     new Category{ categoryName = "Гигиенические средства", desc = "Необходимые для поддержания чистоты"},
-                    new Category{ categoryName = "Косметические средства", desc = "Декоративная косметика и ряд вспомогательных продуктов"}
-                    new Category { categoryName = ""}
+                    new Category{ categoryName = "Косметические средства", desc = "Декоративная косметика и ряд вспомогательных продуктов"},
+                    
                 };
             }
         }
