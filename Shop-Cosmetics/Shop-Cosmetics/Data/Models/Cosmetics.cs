@@ -1,19 +1,30 @@
-﻿namespace Shop_Cosmetics.Data.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Shop_Cosmetics.Data.Models
 {
     public class Cosmetics
     {
         public int id { set; get; }
 
-        public string categoryName { set; get; }
+        public string name { set; get; }
 
-        public string desc { set; get; }
-        public string desc { set; get; }
-        public string desc { set; get; }
-        public string desc { set; get; }
-        public string desc { set; get; }
-        public string desc { set; get; }
-        public string desc { set; get; }
-        public string desc { set; get; }
+        public string shortDesc { set; get; }
 
+        public string longDesc { set; get; }
+
+        public string img { set; get; }
+
+        public ushort price { set; get; }
+
+        public bool isFavourit { set; get; }
+
+        public int available { set; get; }
+
+        public int categoryID { set; get; }
+
+        public virtual Category Category{ set; get; }
     }
 }

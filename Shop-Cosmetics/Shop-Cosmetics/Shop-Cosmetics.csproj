@@ -5,9 +5,20 @@
     <RootNamespace>Shop_Cosmetics</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Data\interfaces\" />
+    <None Remove="Data\mocks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\interfaces\" />
+    <Folder Include="Data\mocks\" />
+  </ItemGroup>
 </Project>
