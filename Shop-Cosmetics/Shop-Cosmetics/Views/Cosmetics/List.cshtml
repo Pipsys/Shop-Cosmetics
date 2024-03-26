@@ -1,0 +1,12 @@
+﻿
+<h1>Вся косметика</h1>
+<h3>@Model.currCaterogy</h3>
+@{
+
+    foreach (var cosmetics in Model.allCosmetics) {
+        <div>
+            <h2>Товар: @cosmetics.name</h2>
+            <p>Цена @cosmetics.price.ToString("c")</p>
+        </div>
+     }
+}

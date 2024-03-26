@@ -6,7 +6,7 @@ using Shop_Cosmetics.Data.Models;
 
 namespace Shop_Cosmetics.Data.interfaces
 {
-	interface IAllCosmetics
+	public interface IAllCosmetics
 	{
 		IEnumerable<Cosmetics> cosmetics { get; }
 		IEnumerable<Cosmetics> getFavCosmetics { get; set; }

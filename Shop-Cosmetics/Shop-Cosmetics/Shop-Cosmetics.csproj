@@ -16,9 +16,23 @@
   <ItemGroup>
     <None Remove="Data\interfaces\" />
     <None Remove="Data\mocks\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Cosmetics\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\interfaces\" />
     <Folder Include="Data\mocks\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Cosmetics\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\img\" />
   </ItemGroup>
 </Project>

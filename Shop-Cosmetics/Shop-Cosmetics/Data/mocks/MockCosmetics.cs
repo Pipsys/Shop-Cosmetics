@@ -77,7 +77,6 @@ namespace Shop_Cosmetics.Data.mocks
                         Category = _categoryCosmetic.AllCategories.First()
                     },
 
-
                     new Cosmetics
                     {
                         name = "MIXIT Make Up Longwearing lip pencil",
