@@ -94,7 +94,7 @@ namespace Shop_Cosmetics.Data.mocks
                         name = "MIXIT Make up Lip Glass, 3,2 ml",
                         shortDesc = "Блеск для губ «Жидкое стекло» , 3,2 мл",
                         longDesc = "Прозрачный блеск для губ с эффектом «Жидкого стекло» – это идеальный глянец и роскошный блеск. Уникальная формула средства обеспечивает комплексный уход за губами.",
-                        img = "<https://image.mixit.ru/insecure/resizing_type:fill/width:560/aHR0cHM6Ly9taXhpdC5ydS91cGxvYWQvaWJsb2NrLzA4ZS8wOGU2YWUyNDE5Mzc0NzYyYjhjZTFmN2Q4NmMyMzJhYy5qcGc.jpg",
+                        img = "https://image.mixit.ru/insecure/resizing_type:fill/width:560/aHR0cHM6Ly9taXhpdC5ydS91cGxvYWQvaWJsb2NrLzA4ZS8wOGU2YWUyNDE5Mzc0NzYyYjhjZTFmN2Q4NmMyMzJhYy5qcGc.jpg",
                         price = 455,
                         isFavourit = true,
                         available = true,

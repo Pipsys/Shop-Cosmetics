@@ -11,6 +11,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
+    <PackageReference Include="JSON" Version="1.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,9 +33,13 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\" />
     <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\img\" />
+    <Content Remove="wwwroot\css\" />
+    <Content Remove="wwwroot\js\" />
   </ItemGroup>
 </Project>

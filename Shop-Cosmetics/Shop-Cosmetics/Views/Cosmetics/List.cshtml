@@ -1,12 +1,15 @@
-﻿
-<h1>Вся косметика</h1>
+﻿<h1>Вся косметика</h1>
 <h3>@Model.currCaterogy</h3>
+<div class="row mt-5 mb-2">
 @{
-
-    foreach (var cosmetics in Model.allCosmetics) {
-        <div>
-            <h2>Товар: @cosmetics.name</h2>
-            <p>Цена @cosmetics.price.ToString("c")</p>
-        </div>
-     }
-}
+        foreach (var cosmetics in Model.allCosmetics) {
+    <div class="col-lg-4">
+        <img class="img-thumbnail" src="@cosmetics.img" alt="@cosmetics.name" />
+        <h2>@cosmetics.name</h2>
+        <p>@cosmetics.shortDesc</p>
+        <p>Цена @cosmetics.price.ToString("c")</p>
+        <p><a class="btn btn-warning" href="#">Подробнее</a></p>
+    </div>
+        }
+    }
+</div>
