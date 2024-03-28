@@ -1,4 +1,4 @@
-﻿{
+﻿/*{
   "ConnectionStrings": {
     "DefaultConnection": "DataSource=app.db"
   },
@@ -8,4 +8,10 @@
     }
   },
   "AllowedHosts": "*"
+}*/
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Shop;Trusted_Connection=True;MultipleActiveResultSets=ture"
+  }
 }
