@@ -9,7 +9,7 @@ namespace Shop_Cosmetics.Data.interfaces
 	public interface IAllCosmetics
 	{
 		IEnumerable<Cosmetics> cosmetics { get; }
-		IEnumerable<Cosmetics> getFavCosmetics { get; set; }
+		IEnumerable<Cosmetics> getFavCosmetics { get;}
 		Cosmetics getObjectCosmetics(int cosmeticsId);
 	}
 }
